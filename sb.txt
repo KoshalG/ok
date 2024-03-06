@@ -1,0 +1,14 @@
+inside springtool:
+edit pom.xml
+remove s from https
+inside build open tag
+<defaultGoal>install</defaultGoal>
+run as maven build 
+
+go to elastic beanstalk
+new app create env
+choose java
+in iam create role aws service usecase ec2
+workertier, webtier, multidocker
+go on till managed platform update disable it
+next next submit once live deploy jar and test

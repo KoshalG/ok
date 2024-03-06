@@ -1,0 +1,17 @@
+springtool new
+spring starter project
+type maven java package jar
+spring web select
+create new class inside com.example.demo
+add:
+
+package com.example.demo;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class Sample {
+	@RequestMapping("/")
+	public String hello() {
+		return "hello world";
+	} 
+}

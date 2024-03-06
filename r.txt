@@ -1,0 +1,3 @@
+rds perms:
+search character
+select first 3 skip 4 select next 2
